@@ -10,7 +10,7 @@ class DateTimeUtils
         $date = new \DateTime();
         if(!empty($timestamp)){
             if(strlen($timestamp)>10){
-                $timestamp=substr(1640178051, 0,10);
+                $timestamp=substr($timestamp, 0,10);
             }
             $date->setTimestamp($timestamp);
         }else {
@@ -29,4 +29,3 @@ class DateTimeUtils
         return $date->format($format);
     }
 }
-

@@ -15,7 +15,10 @@ class Path
      */
     public static function getDirName($path)
     {
-        return pathinfo($path,PATHINFO_DIRNAME);
+        if(!empty($path)){
+            return pathinfo($path,PATHINFO_DIRNAME);
+        }
+        return "";
     }
 
     /**
@@ -25,7 +28,10 @@ class Path
      */
     public static function getFileBaseName($path)
     {
-        return pathinfo($path,PATHINFO_BASENAME);
+        if(!empty($path)){
+            return pathinfo($path,PATHINFO_BASENAME);
+        }
+        return "";
     }
 
     /**
