@@ -1,5 +1,5 @@
 <?php
-namespace Yauphp\Common\Collection;
+namespace yauphp\common\collection;
 
 /**
  * 集合接口

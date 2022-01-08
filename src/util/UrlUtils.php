@@ -1,5 +1,5 @@
 <?php
-namespace Yauphp\Common\Util;
+namespace yauphp\common\util;
 
 /**
  * URL辅助类

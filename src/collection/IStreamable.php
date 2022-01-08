@@ -1,5 +1,5 @@
 <?php
-namespace Yauphp\Common\Collection;
+namespace yauphp\common\collection;
 
 /**
  * 是否可转换为流接口

@@ -1,5 +1,5 @@
 <?php
-namespace Yauphp\Common\Util;
+namespace yauphp\common\util;
 
 /**
  * 安全相关通用功能类

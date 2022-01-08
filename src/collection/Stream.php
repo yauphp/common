@@ -1,5 +1,5 @@
 <?php
-namespace Yauphp\Common\Collection;
+namespace yauphp\common\collection;
 
 /**
  * 队列流操作类(内部测试版本)
