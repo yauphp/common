@@ -1,5 +1,5 @@
 <?php
-namespace yauphp\common\util;
+namespace Yauphp\Common\Util;
 
 /**
  * 字符串处理常用类

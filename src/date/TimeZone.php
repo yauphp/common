@@ -1,5 +1,5 @@
 <?php
-namespace yauphp\common\date;
+namespace Yauphp\Common\Date;
 
 class TimeZone
 {

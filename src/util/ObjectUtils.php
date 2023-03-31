@@ -1,5 +1,5 @@
 <?php
-namespace yauphp\common\util;
+namespace Yauphp\Common\Util;
 
 /**
  * 对象常用功能类

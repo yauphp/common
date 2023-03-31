@@ -1,5 +1,5 @@
 <?php
-namespace yauphp\common\io;
+namespace Yauphp\Common\IO;
 
 /**
  * 文件操作类

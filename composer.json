@@ -15,7 +15,7 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"yauphp\\common\\" : "src"
+			"Yauphp\\Common\\" : "src"
 		}
 	}
 }

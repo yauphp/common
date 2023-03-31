@@ -1,5 +1,5 @@
 <?php
-namespace yauphp\common\util;
+namespace Yauphp\Common\Util;
 
 /**
  * 数据转换常用方法
