@@ -99,7 +99,13 @@ class DataUtils
                 self::_getSelectTreeChildren($target,$id,$source,$idField,$pidField,$titleField,$separator,$prefix,$level,1);
             }
         }
-        return $target;
+        //转换为二维数组输出
+        $list=[];
+        foreach($target as $k=>$v){
+            $item=[$idField=>$k,$titleField=>$v];
+            $list[]=$item;
+        }
+        return $list;
     }
 
     /**
